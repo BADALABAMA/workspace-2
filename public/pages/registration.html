@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      id="app"
+      class="font-mono bg-gradient-to-r from-teal-50 to-blue-100 h-[100%]"
+    >
+      <header class="header flex justify-between p-5 items-center">
+        <div class="input-wrapper">
+          <input
+            type="text"
+            class="input bg-inherit border-blue-400 border-solid border-b-2"
+            placeholder="Searching ..."
+          />
+        </div>
+
+        <div class="logo-wrapper">
+          <div class="logo text-xl font-semibold font-mono text-pink-200">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/2048px-BMW_logo_%28gray%29.svg.png"
+              alt=""
+              class="w-[10%] ml-[20%]"
+            />
+          </div>
+        </div>
+
+        <nav class="nav flex w-[50%] gap-9 justify-between text-black">
+          <a
+            href="../../index.html"
+            class="nav-link hover:scale-125 duration-300 hover:shadow-lg rounded-md hover:shadow-cyan-100 bg-cyan-50 px-8 py-1 border-white border-2 ease-linear duration-300"
+            >Home</a
+          >
+          <a
+            href="./public/pages/category.html"
+            class="nav-link hover:scale-125 duration-300 hover:shadow-lg rounded-md hover:shadow-cyan-100 bg-cyan-50 px-8 py-1 border-white border-2 ease-linear duration-300"
+            >Category</a
+          >
+          <a
+            href="./public/pages/about_us.html"
+            class="nav-link hover:scale-125 duration-300 hover:shadow-lg rounded-md hover:shadow-cyan-100 bg-cyan-50 px-8 py-1 border-white border-2 ease-linear duration-300"
+            >About us</a
+          >
+          <a
+            href="./public/pages/login.html"
+            class="nav-link hover:scale-125 duration-300 hover:shadow-lg rounded-md hover:shadow-cyan-100 bg-cyan-50 px-8 py-1 border-white border-2 ease-linear duration-300"
+            >Login</a
+          >
+        </nav>
+      </header>
+
+     <div class="flex justify-center items-center h-screen">
+        <div class="w-1/2 max-w-sm"> 
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                        Username
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="username" type="text" placeholder="Enter your username">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                        Password
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="password" type="password" placeholder="Enter your password">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="confirm-password">
+                        Confirm Password
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="confirm-password" type="password" placeholder="Confirm your password">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="button">
+                        Register
+                    </button>
+                    <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+                        href="#">Forgot Password?</a>
+                </div>
+            </form>
+    </div>
+    
+</div>
+ <footer class="footer flex justify-center mt-10 h-screen">
+        <h2 class="text-lg text-black-100">All right reserved(c) 2023</h2>
+      </footer>
+  </body>
+</html>
+<script type="module" src="/main.js"></script>
